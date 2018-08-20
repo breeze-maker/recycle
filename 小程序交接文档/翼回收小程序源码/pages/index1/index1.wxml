@@ -1,0 +1,33 @@
+<image class="top" mode="scaleToFill" src='../../images/index1_top.png'  mode="widthFix" />
+
+<view class='mobile'>
+  <view class='mobile_image'>
+    <view class="mobile_image_ico" style="background-image:url({{modelImageUrl}});">
+    </view>
+  </view>
+
+  <view class='mobile_info'>
+    <view class='mobile_info_title'>
+      <image class='mobile_info_title_ico' src='../../images/index1_title_ico.png'></image>
+      <text class='mobile_info_title_text'>手机型号</text>
+    </view>
+
+    <text class='mobile_info_name'>{{modelName}}</text>
+
+    <view class='mobile_info_price' hidden='{{lastPriceHidden}}'>
+      <text class='mobile_info_price_title'>良品回收价格：</text>
+      <text class='mobile_info_price2_text'>{{goodPrice}}</text>
+      <text class='mobile_info_price_title' style='margin-left:5px'>元</text>
+    </view>
+    <view class='mobile_info_price' hidden='{{lastPriceHidden}}'>
+      <text class='mobile_info_price_title'>上次评估价格：</text>
+      <text class='mobile_info_price2_text'>{{lastPrice}}</text>
+      <text class='mobile_info_price_title' style='margin-left:5px'>元</text>
+    </view>
+    <view class='mobile_info_btn'>
+      <button class='mobile_info_btn' type='default' style='color:#4560e6;' bindtap="toSelectBrandOnClick">立即回收</button>
+    </view>
+  </view>
+</view>
+
+<button class='bottom_btn' type='defaule' style="background-image:url(../../images/index1_btn2.png);" bindtap="toSelectMobileOnClick">评估抽奖</button>

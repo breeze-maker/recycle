@@ -1,0 +1,7 @@
+<span style="font-family:'Comic Sans MS';font-size:18px;color:#333333;">
+  <view class="container" class="zn-uploadimg">
+     <button class='container_btn1' type="primary" open-type='share'>立即分享给好友</button>
+
+     <button class='back_btn' type="default" bindtap="backOnclick">返回</button> 
+  </view>
+</span>
